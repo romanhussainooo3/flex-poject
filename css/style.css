@@ -1,0 +1,659 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/* header start */
+.header{
+    width: 1200px;
+    margin: 0px auto;
+}
+.container{
+    width: 100%;
+    padding: 10px 0px;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-img{
+    width: 175px;
+}
+.login .menu{
+    display: block;
+}
+.login .menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 25px 0px 0px;   
+}
+.login .menu li a{
+    font-size: 16px;
+    padding: 13px;
+    text-transform: capitalize;
+    color: rgb(31, 158, 242);
+}
+.menu li:hover{
+    cursor: pointer;
+    border-bottom: 3px solid rgb(16, 126, 252);
+}
+
+/* .menu li::after{
+    content: "";
+    width: 0px;
+    height: 2px;
+    display: block;
+    background-color: red;
+    transition: 1s linear;
+}
+.menu li:hover::after{
+    width: 90px;
+    cursor: pointer;
+} */
+.batton{
+    display: block;
+    margin: 25px 0px;
+}
+.batton .btn-primary{
+    background-color: rgb(34, 102, 228);
+    padding: 11px 15px;
+    margin: 2px;
+    font-size: 16px;
+    color: rgb(234, 229, 219);
+}
+.btn-primary .fa{
+    font-size: 16px;
+    padding: 4px;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: rgb(255, 234, 0);
+    color: rgb(0, 0, 0);
+    transition: 3s;
+}
+.btn-primary:focus{
+    background-color: red;
+    color: aqua;
+}
+/* header end */
+
+/* banner start */
+.formbox{
+    display: flex;
+    justify-content: space-between;
+}
+.loginbox{
+    width: 52%;
+    margin: 150px 0px 0px;
+}
+.loginbox h1{
+    font-size: 39px;
+    line-height: 1.2em;
+    color: #066ac2;
+    font-weight: 780;
+}
+.loginbox h5{
+    font-size: 17px;
+    line-height: 1.2em;
+    font-weight: 200;
+    color: #4f91cb;
+    margin: 10px auto;
+}
+.batton{
+    display: block;
+
+}
+.btn-primari{
+    padding: 16px 22px;
+    font-size: 14px;
+    text-transform: capitalize;
+    background-color: #0e72cc;
+    color: white;
+    border-radius: 7px;
+}
+.btn-primari:hover{
+    cursor: pointer;
+    background-color: rgb(10, 208, 10);
+    color: deeppink;
+    transition: 2s;
+}
+.btn-primari:focus{
+    background: red;
+    color: #000;
+}
+.avaters{
+    width: 90%;
+    transform: translate(130px, 10px);
+}
+/* banner end */
+
+
+/* nabver start */
+
+.nabver{
+    display: flex;
+    justify-content: space-between;
+}
+.nabver.line1 i{
+    display: block;
+  
+}
+.line1 {
+    width: 320px;
+    height: 150px;
+    background-color: hsl(0, 83%, 70%);
+    border-radius: 7px;
+}
+.line1 .fa{
+    font-size: 30px;
+    margin: 25px 20px;
+    position: relative;
+    color: antiquewhite;
+}
+.level1 h4{
+    position: relative;
+    font-size: 18px;
+    left: 75px;
+    top: -60px;
+    color: antiquewhite;
+}
+.level1 p{
+    position: relative;
+    width: 200px;
+    margin: 0px 75px;
+    top: -45px;
+    color: antiquewhite;
+}
+.line2 {
+    width: 320px;
+    height: 150px;
+    background-color: rgb(7, 196, 199);
+    border-radius: 7px;
+}
+.line2 .fa{
+    font-size: 30px;
+    margin: 25px 20px;
+    position: relative;
+    color: antiquewhite;
+}
+.level2 h4{
+    position: relative;
+    font-size: 18px;
+    left: 75px;
+    top: -60px;
+    color: antiquewhite;
+}
+.level2 p{
+    position: relative;
+    width: 200px;
+    margin: 0px 75px;
+    top: -45px;
+    color: antiquewhite;
+}
+.line3{
+    width: 320px;
+    height: 150px;
+    background-color: rgb(83, 81, 210);
+    border-radius: 7px;
+}
+.line3 .fa{
+    font-size: 30px;
+    margin: 25px 20px;
+    position: relative;
+    color: antiquewhite;
+}
+.level3 h4{
+    position: relative;
+    font-size: 18px;
+    left: 75px;
+    top: -60px;
+    color: antiquewhite;
+}
+.level3 p{
+    position: relative;
+    width: 230px;
+    margin: 0px 75px;
+    top: -45px;
+    color: antiquewhite;
+}                             
+/* nabver start */
+
+
+
+
+
+/* box1 start */
+.formbox{
+    display: flex;
+    padding: 80px 0px;
+}
+.loginform{
+    display: block;
+    margin: 50px 0px;
+   
+}
+.loginform h3{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 40px;
+}
+.loginform h1{
+    width: 250px;
+    font-size: 35px;
+    line-height: 37px;
+    font-weight: 700;
+    color: #4a4141;
+}
+.loginform p{
+    width: 350px;
+    height: 100px;
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(113, 110, 106);
+    margin: 10px 20px;
+    margin-left: -2px;
+}
+.img-logo{
+    margin: 20px 0px;
+    width: 58%;
+}
+/* box1 end */
+
+/* box2 start */
+
+.logbox{
+    display: flex;
+    margin: 20px 0px;
+}
+.abater img{
+    width: 90%;
+    margin: 50px 0px;
+}
+.signbox{
+    margin: 90px 0px 0px;
+    width: 100%;
+}
+.signbox h3{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 40px;
+}
+.signbox h1{
+    width: 250px;
+    font-size: 35px;
+    line-height: 37px;
+    font-weight: 700;
+    color: rgb(88, 85, 82);
+}
+.signbox p{
+    line-height: 20px;
+    font-weight: 100;
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(88, 85, 82);
+    margin: 10px auto;
+}  
+/* box2 end */
+
+
+
+
+/* box3 start */
+.formbox{
+    display: flex;
+}
+.loginform{
+    display: block;
+    margin: 50px 0px;
+   
+}
+.loginform h3{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 40px;
+}
+.loginform h1{
+    width: 250px;
+    font-size: 35px;
+    line-height: 37px;
+    font-weight: 700;
+    color: #4a4141;
+}
+.loginform p{
+    width: 350px;
+    height: 100px;
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(113, 110, 106);
+    margin: 10px 20px;
+    margin-left: -2px;
+}
+.avat{
+    margin: 20px 0px;
+    width: 63%;
+  
+} 
+/* box3 end */
+
+/* box4 start */
+.navber1{
+    display: flex;
+    margin: 40px 70px;
+}
+.signinbox{
+    width: 79vw;
+    height: 50vh;
+    background-color: rgb(38, 11, 100);
+    margin: 0px 0px 40px;
+}
+.login1{
+    position: relative;
+    text-align: center;
+    bottom: -40px;
+}
+.login1 h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+
+/* box 01*/
+.box1{
+    width: 210px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);                       
+    margin: 38px 20px;
+    border-radius: 7px;
+}
+.box1 h6{
+    font-size: 14px;
+    position: absolute;
+    margin: 5px 15px;
+}
+.box1 p{
+    width: 120px;
+    font-size: 12px;
+    margin: 32px 15px;
+    position: absolute;
+    line-height: 15px;
+}
+.dobulbox1{
+    width: 175px;
+    height: 110px;
+    background-color: rgb(133, 23, 41);
+    margin: 10px 15px;
+    position: relative;
+    border-radius: 5px;
+}
+.dobulbox1 h2{
+    position: absolute;
+    margin: 30px 39px;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+.dobulbox1 h5{
+    position: absolute;
+    margin: 50px 46px;
+    color: white;
+} 
+/* box 01 */
+/* box 02 */
+.box2{
+    width: 210px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    margin: 38px 27px;
+    border-radius: 7px;
+}
+.box2 h6{
+    font-size: 14px;
+    position: absolute;
+    margin: 5px 15px;
+}
+.box2 p{
+    width: 120px;
+    font-size: 12px;
+    margin: 32px 15px;
+    position: absolute;
+    line-height: 15px;
+}
+.dobulbox2{
+    width: 175px;
+    height: 110px;
+    background-color: rgb(146, 101, 23);
+    margin: 10px 15px;
+    position: relative;
+    border-radius: 5px;
+}
+.dobulbox2 h2{
+    width: 200PX;
+    position: absolute;
+    margin: 30px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+.dobulbox2 h5{
+    width: 200px;
+    position: absolute;
+    margin: 50px 28px;
+    color: white;
+} 
+/* box 02 */
+/* box 03 */
+.box3{
+    width: 210px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    margin: 38px 27px;
+    border-radius: 7px;
+}
+.box3 h6{
+    font-size: 14px;
+    position: absolute;
+    margin: 5px 15px;
+}
+.box3 p{
+    width: 120px;
+    font-size: 12px;
+    margin: 32px 15px;
+    position: absolute;
+    line-height: 15px;
+}
+.dobulbox3{
+    width: 175px;
+    height: 110px;
+    background-color: rgb(28, 69, 146);
+    margin: 10px 15px;
+    position: relative;
+    border-radius: 5px;
+}
+.dobulbox3 h2{
+    width: 200PX;
+    position: absolute;
+    margin: 30px 30px;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+.dobulbox3 h5{
+    width: 200px;
+    position: absolute;
+    margin: 50px 55px;
+    color: white;
+} 
+.signinbox1 h1{
+    font-size: 30px;
+    margin-left: 400px;
+   
+}
+/* box 03 */
+/* box 04 */
+.box4{
+    width: 210px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    margin: 38px 27px;
+      border-radius: 7px;
+}
+.box4 h6{
+    font-size: 14px;
+    position: absolute;
+    margin: 5px 15px;
+}
+.box4 p{
+    width: 120px;
+    font-size: 12px;
+    margin: 32px 15px;
+    position: absolute;
+    line-height: 15px;
+}
+.dobulbox4{
+    width: 175px;
+    height: 110px;
+    background-color: rgb(17, 111, 19);
+    margin: 10px 15px;
+    position: relative;
+    border-radius: 5px;
+}
+.dobulbox4 h2{
+    position: absolute;
+    margin: 30px 39px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.dobulbox4 h5{
+    position: absolute;
+    margin: 50px 46px;
+    color: white;
+} 
+/* 04 */
+/* box4 end */
+
+/* box5 start */
+.feature{
+    text-align: center;
+    background-color: rgb(54, 120, 225);
+    width: 79vw;
+    height: 45vh;
+}
+.feature:hover{
+    cursor: pointer;
+    background-color: #000;
+    transition: 3s;
+}
+.fature{
+   padding: 100px 0px;
+   margin: 80px 0px;
+}
+.fature h3{
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+}
+.fature p{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+.fature h6{
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+/* box5 end */
+
+/* fotter start */
+.fotter{
+    display: flex;
+    padding: 80px 0px;
+}
+.fotter :hover{
+    cursor: pointer;
+   color: #000000;
+   transition: 1s;
+}
+
+.fotter1{
+    display: block;
+}
+.fotter1 h5{
+    font-size: 15px;
+    width: 200px;
+    color: rgb(21, 107, 226);
+}
+.fotter1 p{
+    width: 250px;
+    font-size: 13px;
+    color: #91a3bb;
+}
+.fotter2{
+    display: block;
+    margin: 2px 20px;
+}
+.fotter2 h5{
+    font-size: 15px;
+    width: 100px;
+    color: rgb(21, 107, 226);
+}
+.fotter2 p{
+    width: 220px;
+    font-size: 13px;
+    color: #91a3bb;
+}
+.fotter3 h5{
+    font-size: 15px;
+    width: 200px;
+    margin: 2px 0px;
+    color: rgb(21, 107, 226);
+}
+.fotter3 p{
+    width: 105px;
+    font-size: 13px;
+    color: #91a3bb;
+}
+.fotter4 h5{
+    font-size: 15px;
+    width: 100px;
+    margin: 2px 0px;
+    color: rgb(21, 107, 226);
+}
+.fotter4 p{
+    width: 70px;
+    color: #91a3bb;
+}
+/* fotter end */
+.copirite{
+    text-align: center;
+    padding: 30px 0px 0px;
+}
+.copirite p{
+    font-size: 14px;
+    color: #2f50b2; 
+}
+@media (min-width:320px) and (max-width:480px){
+
+    .container{
+        width: 90%;
+
+    }
+}
